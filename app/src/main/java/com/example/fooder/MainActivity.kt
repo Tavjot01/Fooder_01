@@ -2,6 +2,7 @@ package com.example.fooder
 
 
 import android.animation.ObjectAnimator
+import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.view.View
@@ -18,21 +19,19 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.layout)
-
-
-        val password = findViewById<EditText>(R.id.password)
-        val username = findViewById<EditText>(R.id.username)
-        val button =  findViewById<Button>(R.id.Submit)
-
-        button.setOnClickListener(){
-            val username_Input =  username.text.toString()
-            val password = password.text.toString()
-
-            if(username.equals("Ekam") && password == "1234"){
-                print(" Welcome to Fooder! ")
+        setContentView(R.layout.activity_main)
+        var timer_count = 0
+        var AllowedNext = false
+        for (i in 1..50){
+            if(i == 50){
+                AllowedNext = true
 
             }
+
+        }
+        if(AllowedNext){
+            val intent  = Intent(this, HomePage::class.java)
+            startActivity(intent)
         }
 
     }}
