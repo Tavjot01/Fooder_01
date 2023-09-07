@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background5"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round_corner"
+        android:drawableLeft="@drawable/baseline_person_outline_24"
+        android:text="Username"
+        android:padding="20dp"
+        android:textColor="@color/material_dynamic_neutral70"
+        android:drawablePadding="20dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round_corner"
+        android:drawableLeft="@drawable/baseline_info_24"
+        android:text="Password"
+        android:padding="20dp"
+        android:textColor="@color/material_dynamic_neutral70"
+        android:drawablePadding="20dp"/>
+
+    <EditText
+        android:id="@+id/forgotpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Forgot Password "
+        android:textColor="@color/material_dynamic_neutral70" />
+
+    <TextView
+        android:id="@+id/firstpage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/forgotpass"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="157dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="16dp"
+        android:autoSizeMaxTextSize="100pt"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Fooder"
+        android:textColor="@color/material_dynamic_neutral70"
+        android:textSize="40dp"
+        android:textStyle="bold"
+
+        />
+    <!--<VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center" />-->
+
+
+</RelativeLayout>
