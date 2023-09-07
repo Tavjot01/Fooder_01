@@ -39,8 +39,8 @@
         android:textColor="@color/material_dynamic_neutral70"
         android:drawablePadding="20dp"/>
 
-    <EditText
-        android:id="@+id/forgotpass"
+    <Button
+        android:id="@+id/Submit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/password"
@@ -48,7 +48,17 @@
 
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="4dp"
+        android:text="Submit "
+        android:textColor="@color/material_dynamic_neutral70" />
+
+    <Button
+        android:id="@+id/forgotpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Submit"
+        android:layout_centerHorizontal="true"
+        android:background="#00FFFFFF"
         android:text="Forgot Password "
         android:textColor="@color/material_dynamic_neutral70" />
 
@@ -56,7 +66,7 @@
         android:id="@+id/firstpage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/forgotpass"
+        android:layout_below="@id/forgotpassword"
         android:layout_marginStart="50dp"
         android:layout_marginTop="157dp"
         android:layout_marginEnd="50dp"
