@@ -27,7 +27,6 @@
         android:textSize="70dp"
         android:textStyle="bold"
         android:autoSizeMaxTextSize="100pt"
-
         />
 
 
