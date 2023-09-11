@@ -15,11 +15,7 @@
         <activity
             android:name=".Restaurant_HomePage"
             android:exported="false" />
-        <activity
-            android:name=".Restaurant_homepage"
-            android:exported="false"
-            android:label="@string/title_activity_restaurant_homepage"
-            android:theme="@style/Theme.Fooder.NoActionBar" />
+
         <activity
             android:name=".HomePage"
             android:exported="false" />

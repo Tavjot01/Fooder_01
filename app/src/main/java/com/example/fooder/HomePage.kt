@@ -1,7 +1,10 @@
 package com.example.fooder
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import android.widget.Button
 import android.widget.EditText
 
@@ -21,6 +24,9 @@ class HomePage : AppCompatActivity() {
 
             if(username.equals("Ekam") && password == "1234"){
                 print(" Welcome to Fooder! ")
+                Handler(Looper.getMainLooper()).postDelayed({
+                    startActivity(Intent(this,Restaurant_HomePage::class.java))
+                },2000)
 
             }
         }

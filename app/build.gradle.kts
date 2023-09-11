@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.fooder"
-        minSdk = 26
+        minSdk = 28
         targetSdk = 33
         versionCode = 1
         versionName = "1.0"
@@ -47,6 +47,5 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     implementation ("androidx.cardview:cardview:1.0.0")
     implementation ("androidx.appcompat:appcompat:1.3.1")
-    implementation ("com.synnapps:carouselview:0.1.5")
 
 }
