@@ -22,120 +22,15 @@
         android:iconifiedByDefault="false"
         android:padding="3dp"
         android:queryHint="Search Restaurant"
-
-        />
-
+/>
 
 
-
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="120dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        app:cardCornerRadius="30dp">
-
-        <!-- Add your restaurant card contents here -->
-        <LinearLayout
+    <ListView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:padding="20dp">
-
-            <ImageView
-                android:id="@+id/restaurant0Image"
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/baseline_info_24"
-                android:clickable="true"
-
-                />
-                <!-- tools:src="@drawable/background3" -->
-
-            <TextView
-                android:id="@+id/restaurant0Name"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Chillis"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                 />
-
-            <TextView
-                android:id="@+id/restaurant0Description"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Italian Cusine , Dine In and Take Away"
-                android:textSize="14sp"
-                 />
-
-
-            <ImageView
-                android:id="@+id/restaurant1Image"
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
-                android:layout_marginTop="40dp"
-                android:background="#096812"
-                android:scaleType="centerCrop" />
-                <!--tools:src="@drawable/background4" -->
-
-            <TextView
-                android:id="@+id/restaurant1Name"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Punjab Grill"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                 />
-
-            <TextView
-                android:id="@+id/restaurant1Description"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Authentic Indian Cuisine"
-                android:textSize="14sp"
-                />
-            <!-- Add more views for displaying restaurant information (e.g., rating, address, etc.) -->
-
-
-            <ImageView
-                android:id="@+id/restaurant2Image"
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
-                android:layout_marginTop="40dp"
-                android:src="@drawable/image1"
-                android:scaleType="centerCrop" />
-            <!--tools:src="@drawable/background4" -->
-
-
-            <TextView
-                android:id="@+id/restaurant2Name"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="One8"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                 />
-
-            <TextView
-                android:id="@+id/restaurant2Description"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Continental Cuisine"
-                android:textSize="14sp"
-                 />
-        </LinearLayout>
-    </androidx.cardview.widget.CardView>
-
+            android:id="@+id/theRestaurantList"
+        android:layout_below="@id/restaurant_searchbar"
+        />
 
 
 
