@@ -42,15 +42,16 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:padding="16dp">
+            android:padding="20dp">
 
             <ImageView
                 android:id="@+id/restaurant0Image"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:scaleType="centerCrop"
-                android:background="#AC5121"
-                android:src="@drawable/image1"
+                android:src="@drawable/baseline_info_24"
+                android:clickable="true"
+
                 />
                 <!-- tools:src="@drawable/background3" -->
 
@@ -58,20 +59,20 @@
                 android:id="@+id/restaurant0Name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Restaurant Name"
+                android:text="Chillis"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
-                tools:text="Chillis" />
+                 />
 
             <TextView
                 android:id="@+id/restaurant0Description"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Restaurant Description"
+                android:text="Italian Cusine , Dine In and Take Away"
                 android:textSize="14sp"
-                tools:text="Italian Cusine , Dine In and Take Away" />
+                 />
 
 
             <ImageView
@@ -87,20 +88,20 @@
                 android:id="@+id/restaurant1Name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Restaurant Name"
+                android:text="Punjab Grill"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
-                tools:text="Punjab Grill" />
+                 />
 
             <TextView
                 android:id="@+id/restaurant1Description"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Restaurant Description"
+                android:text="Authentic Indian Cuisine"
                 android:textSize="14sp"
-                tools:text="Authentic Indian Cuisine" />
+                />
             <!-- Add more views for displaying restaurant information (e.g., rating, address, etc.) -->
 
 
@@ -109,7 +110,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:layout_marginTop="40dp"
-                android:background="#AC2121"
+                android:src="@drawable/image1"
                 android:scaleType="centerCrop" />
             <!--tools:src="@drawable/background4" -->
 
@@ -118,20 +119,20 @@
                 android:id="@+id/restaurant2Name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Restaurant Name"
+                android:text="One8"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
-                tools:text="ONE 8" />
+                 />
 
             <TextView
                 android:id="@+id/restaurant2Description"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Restaurant Description"
+                android:text="Continental Cuisine"
                 android:textSize="14sp"
-                tools:text="Sample Restaurant Description" />
+                 />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
