@@ -20,9 +20,9 @@ class HomePage : AppCompatActivity() {
 
         button.setOnClickListener(){
             val username_Input =  username.text.toString()
-            val password_input = password.text.toString()
+            val password = password.text.toString()
 
-            if(username_Input == "Ekam" && password_input == "1234"){
+            if(username.equals("Ekam") && password == "1234"){
                 print(" Welcome to Fooder! ")
                 Handler(Looper.getMainLooper()).postDelayed({
                     startActivity(Intent(this,Restaurant_HomePage::class.java))

@@ -28,7 +28,7 @@
         android:textStyle="bold"
         android:autoSizeMaxTextSize="100pt"
         />
-    android:scrollbarThumbVertical="@android:color/white"
+
 
 
 
